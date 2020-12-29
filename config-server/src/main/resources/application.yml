@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/iundarigun/repoconfig.git
+          search-paths: '{application}/{profile}'
+#        encrypt:
+#          enabled: false
+
+encrypt:
+  key-store:
+    location: classpath:/config-server.jks
+    secret: my-secret-keypass
+    alias: config-server-key
+    password: my-secret-storepass
