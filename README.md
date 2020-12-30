@@ -11,3 +11,4 @@ See branch `token-auth`
 See branch `basic-auth`
 
 ## References
+Post on medium: https://medium.com/dev-cave/seguran%C3%A7a-e-configuration-server-2d5ac7c1284e
