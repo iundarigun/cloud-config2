@@ -1,0 +1,6 @@
+encrypt:
+  key-store:
+    location: classpath:/config-server.jks
+    secret: my-secret-keypass
+    alias: config-server-key
+    password: my-secret-storepass
