@@ -8,6 +8,11 @@ spring:
           uri: https://github.com/iundarigun/repoconfig.git
           search-paths: '{application}/{profile}'
 
+  security:
+    user:
+      name: app
+      password: my-supersecret-password
+
 encrypt:
   key-store:
     location: classpath:/config-server.jks
