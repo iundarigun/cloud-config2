@@ -7,8 +7,6 @@ spring:
         git:
           uri: https://github.com/iundarigun/repoconfig.git
           search-paths: '{application}/{profile}'
-#        encrypt:
-#          enabled: false
 
 encrypt:
   key-store:
@@ -16,3 +14,6 @@ encrypt:
     secret: my-secret-keypass
     alias: config-server-key
     password: my-secret-storepass
+
+security:
+  token-api: super-secret-token

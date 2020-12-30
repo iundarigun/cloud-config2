@@ -2,6 +2,5 @@ spring:
   application:
     name: app-service2
 
-  cloud:
-    config:
-      uri: http://localhost:8888
+properties:
+  property-two: 123
